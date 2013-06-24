@@ -4,6 +4,7 @@ dropwizard-redis
 Example application to have a prototype with Dropwizard, Guice (IoC) and Redis.
 
 Assumptions:
+- Have dropwizard-guice as a dependency.
 - Have installed Redis on your machine.
 - Have launched redis-server on port 6379 (you can change the port but application.yml file should have the same one)
 
